@@ -1,0 +1,40 @@
+site_name: Vladimir Puzakov
+site_description: Vladimir Puzakov personal page
+site_url: https://vppuzakov.github.io
+
+theme:
+    name: 'material'
+    palette:
+        primary: 'black'
+        accent: 'teal'
+    logo: 'img/logo.png'
+    favicon: 'img/logo.png'
+
+nav:
+    - Vladimir Puzakov: 'index.md'
+    - CV: 'cv.md'
+    - Tech Radar: 'tech-radar.md'
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - markdown.extensions.codehighlite:
+        guess_lang: false
+    - markdown_include.include:
+        base_path: docs
+    - admonition
+    - codehilight
+    - extra
+
+extra:
+    social:
+        - type: 'github'
+          link: 'https://github.com/vppuzakov'
+        - type: 'twitter'
+          link: 'https://twitter.com/vppuzakov'
+        - type: 'linkedin'
+          link: 'https://linkedin.com/vppuzakov'
+        - type: 'rss'
+          link: 'https://dev.to/vppuzakov'
+        - type: 'medium'
+          link: 'https://medium.com/vppuzakov'
