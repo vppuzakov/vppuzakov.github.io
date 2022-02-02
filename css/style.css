@@ -243,6 +243,7 @@ a {
   margin: 3px;
 }
 #container .left-col {
+  background: rgba(34,34,34,0.565);
   width: 300px;
   position: fixed;
   -webkit-transition: all 0.2s ease-in;
@@ -253,12 +254,12 @@ a {
   top: 10px;
   left: 10px;
   bottom: 10px;
-  -webkit-box-shadow: 0px 0px 30px #76827f;
-  -moz-box-shadow: 0px 0px 30px #76827f;
-  -ms-box-shadow: 0px 0px 30px #76827f;
-  -o-box-shadow: 0px 0px 30px #76827f;
-  -webkit-box-shadow: 0px 0px 30px #76827f;
-  box-shadow: 0px 0px 30px #76827f;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  -moz-box-shadow: 0px 0px 16px 4px #000;
+  -ms-box-shadow: 0px 0px 16px 4px #000;
+  -o-box-shadow: 0px 0px 16px 4px #000;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  box-shadow: 0px 0px 16px 4px #000;
   -webkit-border-radius: 40px 5px;
   -moz-border-radius: 40px 5px;
   -ms-border-radius: 40px 5px;
@@ -506,8 +507,8 @@ a {
 #header .profilepic {
   text-align: center;
   display: block;
-  -webkit-box-shadow: 0 0 30px 2px #9fe2bf;
-  box-shadow: 0 0 30px 2px #9fe2bf;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  box-shadow: 0px 0px 16px 4px #000;
   border-radius: 50% 20%/10% 40%;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -518,7 +519,7 @@ a {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all 0.6s ease-in;
+  -webkit-transition: all 0.3s ease-in;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
@@ -530,7 +531,7 @@ a {
   height: 20%;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transition: all 0.6s ease-in;
+  -webkit-transition: all 0.3s ease-in;
 }
 #header .profilepic.show img {
   width: 100%;
@@ -538,10 +539,9 @@ a {
   opacity: 1;
 }
 #header .profilepic:hover {
-  -webkit-transform: rotate(0.7turn);
-  -moz-transform: rotate(0.7turn);
-  -ms-transform: rotate(0.7turn);
-  transform: rotate(0.7turn);
+  color: #fff;
+  -webkit-box-shadow: 0 5px 15px rgba(193,243,11,0.9);
+  box-shadow: 0 5px 15px rgba(193,243,11,0.9);
 }
 #header .header-subtitle {
   text-align: center;
@@ -577,12 +577,12 @@ a {
   margin: 0 auto;
   margin-top: 10px;
   padding: 0px 5px;
-  -webkit-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -moz-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -ms-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -o-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -webkit-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  box-shadow: 0px 0px 10px 2px #9fe2bf;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  -moz-box-shadow: 0px 0px 16px 4px #000;
+  -ms-box-shadow: 0px 0px 16px 4px #000;
+  -o-box-shadow: 0px 0px 16px 4px #000;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  box-shadow: 0px 0px 16px 4px #000;
   border-radius: 40px 10px;
   cursor: default;
 }
@@ -597,10 +597,9 @@ a {
   color: #ccf;
 }
 #header .header-menu li:hover {
-  -webkit-transform: rotate(0.01turn);
-  -moz-transform: rotate(0.01turn);
-  -ms-transform: rotate(0.01turn);
-  transform: rotate(0.01turn);
+  color: #fff;
+  -webkit-box-shadow: 0 3px 5px rgba(193,243,11,0.9);
+  box-shadow: 0 3px 5px rgba(193,243,11,0.9);
 }
 #header .half-header-menu {
   font-weight: 300;
@@ -621,12 +620,12 @@ a {
   margin: 0 auto;
   margin-top: 5px;
   padding: 0px 5px;
-  -webkit-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -moz-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -ms-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  -o-box-shadow: 0px 0px 10px 2px 2BF;
-  -webkit-box-shadow: 0px 0px 10px 2px #9fe2bf;
-  box-shadow: 0px 0px 10px 2px #9fe2bf;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  -moz-box-shadow: 0px 0px 16px 4px #000;
+  -ms-box-shadow: 0px 0px 16px 4px #000;
+  -o-box-shadow: 0px 0px 16px 4px #000;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  box-shadow: 0px 0px 16px 4px #000;
   border-radius: 40px;
   cursor: default;
   color: #dfff00;
@@ -983,12 +982,13 @@ a {
 .article {
   margin: 10px 30px 30px 30px;
   position: relative;
-  -webkit-box-shadow: 0px 0px 30px 10px #76827f;
-  -moz-box-shadow: 0px 0px 30px 10px #76827f;
-  -ms-box-shadow: 0px 0px 30px 10px #76827f;
-  -o-box-shadow: 0px 0px 30px 10px #76827f;
-  -webkit-box-shadow: 0px 0px 30px 10px #76827f;
-  box-shadow: 0px 0px 30px 10px #76827f;
+  background: rgba(34,34,34,0.565);
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  -moz-box-shadow: 0px 0px 16px 4px #000;
+  -ms-box-shadow: 0px 0px 16px 4px #000;
+  -o-box-shadow: 0px 0px 16px 4px #000;
+  -webkit-box-shadow: 0px 0px 16px 4px #000;
+  box-shadow: 0px 0px 16px 4px #000;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -1467,7 +1467,7 @@ a {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #4d4d4d;
+  background: rgba(16,16,16,0.753);
   margin: 10px 0;
   padding: 10px 10px;
   overflow: auto;
